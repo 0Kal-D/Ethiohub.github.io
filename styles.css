@@ -1,0 +1,203 @@
+body{
+    height: 100vh;
+    background-color:  rgb(69, 141, 223);
+    color: white;
+    font-family: sans-serif,verdana;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+.main{
+    position: relative;
+    width: 350px;
+    margin:10px auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.586);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+    min-height: calc(100vh - 190px);
+}
+.content{
+    width: 80% ;
+    height: 100vh;
+    display: inline;
+    margin: auto;
+    margin-bottom: 30px;
+    top: 30px;
+    border-radius: 20px;
+}
+.menu{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+hr{
+    width: 92%;
+    margin-top: 10px;
+    height: 2px;
+    background-color: white;
+    border-width: 0;
+}
+h1{
+    width: 90%;
+    padding-top: 30px;
+    font-size: 25px;
+    margin: auto;
+}
+p{
+    width: 90%;
+    font-size: 14px;
+    
+}
+h2,h3{
+    text-align: center;
+}
+h2{
+    font-size: 12px;
+}
+#techer-guid,#textbook,#st9,#st10,#st11,#st12,#tg9,#tg10,#tg11,#tg12{
+    display: none;
+    margin: auto;
+    width: 96%;
+    border-style: solid;
+    border-width: 1.8px;
+    border-radius: 30px;
+    border-color: white;
+    padding-bottom: 10px;
+}
+#techer-guid,#textbook{
+    padding-bottom: 2%;
+}
+#st9,#st10,#st11,#st12,#tg9,#tg10,#tg11,#tg12{
+    margin-bottom: 0;
+}
+article a{
+    color: white;
+    text-decoration: none;
+}
+section{
+    text-align: center;
+    color: white;
+}
+section button{
+    width: 30%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 14px;
+}
+h4,button{
+    margin: 4px;
+    font-size: 12px;
+}
+button{
+    width: 45%;
+    height: max-content;
+    background: transparent;
+    border-width: 1.5px;
+    border-color: white;
+    border-radius: 15px;
+    border-style:solid;
+    transition-duration: 0.5s;
+}
+button:hover{
+    width: 50%;
+    border-color: brown;
+    cursor: pointer;
+}
+button:focus{
+    border-color: brown;
+}
+
+article{
+    margin-top: 12px;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+footer{
+    padding: auto;
+    width: 350px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.308);
+    margin-bottom: 0;
+    margin-top: 0;
+    border-style: solid;
+    border-radius: 20px;
+}
+footer p{
+    margin-top: 6px;
+    padding: 3px;
+    text-align: center;
+}
+.social-link{
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.social-link a{
+    color: white;
+    margin: 0 10px;
+}
+.fa-brands{
+    font-size: 30px;
+    padding: 3px;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 8px;
+    transition-duration: .5s;
+}
+.fa-facebook:hover{
+    color: rgb(29, 29, 255);
+    background-color: white;
+}
+.fa-telegram:hover{
+    color: rgb(57, 139, 255);
+    background-color: white;
+}
+.fa-instagram:hover{
+    color: orangered;
+    background-color: white;
+}
+.fa-twitter:hover{
+    color: rgb(57, 139, 255);
+    background-color: white;
+}
+.fa-square-github:hover{
+    color: rgb(43, 43, 43);
+    background-color: white;
+}
+.theme{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding: 4px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1.8px;
+    border-radius: 20px;
+}
+.theme i{
+    margin: 0 15px;
+    padding: 2px;
+    border-style: solid;
+    border-width: 1.8px;
+    border-radius: 12px;
+    font-size: 16px;
+    transition-duration: .5s;
+}
+.fa-moon:hover{
+    width: 15%;
+    color: brown;
+    border-color: brown;
+    cursor: pointer;
+}
+.fa-moon:focus{
+    width: 15%;
+    color: brown;
+    border-color: brown;
+    cursor: pointer;
+}
